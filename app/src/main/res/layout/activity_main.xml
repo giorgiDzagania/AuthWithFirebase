@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="307dp"
+        android:fontFamily="@font/comfortaa"
+        android:gravity="center"
+        android:letterSpacing="0.01"
+        android:text="@string/photo"
+        android:textAllCaps="false"
+        android:textColor="@color/black_main_page"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="@+id/image_union_one"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/image_union_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="312dp"
+        android:src="@drawable/union"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/image_union_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/union2"
+        app:layout_constraintStart_toStartOf="@id/image_union_one"
+        app:layout_constraintTop_toTopOf="@id/image_union_one" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/pawel_czerwinski"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="53dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/pavel_czerwinski"
+        android:textColor="@color/black_main_page"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toTopOf="@id/btn_login"
+        app:layout_constraintEnd_toEndOf="@id/btn_login"
+        app:layout_constraintStart_toStartOf="@id/btn_login" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/pawel_czerwinski_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:text="@string/pavel_czerwinski_email"
+        android:textColor="@color/pavel_email_color"
+        android:textSize="11sp"
+        app:layout_constraintStart_toStartOf="@id/pawel_czerwinski"
+        app:layout_constraintTop_toBottomOf="@id/pawel_czerwinski" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="167dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="33dp"
+        android:background="@drawable/white_background"
+        android:letterSpacing="0.04"
+        android:text="@string/log_in"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btn_register"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="167dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="33dp"
+        android:background="@drawable/black_background"
+        android:letterSpacing="0.04"
+        android:text="@string/register"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btn_login" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

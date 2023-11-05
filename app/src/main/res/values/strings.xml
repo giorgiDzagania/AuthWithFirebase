@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">FireBaseEx</string>
+    <string name="pavel_czerwinski">Pavel Czerwinski</string>
+    <string name="pavel_czerwinski_email">\@pavel_czerwinski</string>
+
+    <string name="username_saved">Username saved successfully.</string>
+    <string name="min_six_characters">Min. 6 characters for username.</string>
+    <string name="enter_valid_info">Please enter valid email and password</string>
+    <string name="photo">photo</string>
+    <string name="log_in">Log in</string>
+    <string name="register">Register</string>
+    <string name="enter_email">Enter email</string>
+    <string name="enter_password">Enter password</string>
+    <string name="next">Next</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="sign_up">sign up</string>
+    <string name="by_signing_up_you_agree_to_photo_s">By signing up, you agree to Photo’s</string>
+    <string name="terms_of_service">Terms of Service</string>
+    <string name="and">and</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="your_email">your email =</string>
+    <string name="username">Username =</string>
+</resources>
